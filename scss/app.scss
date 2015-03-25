@@ -1,0 +1,298 @@
+@import "settings";
+@import "foundation";
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switch",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+$grey: 		rgb(131, 131, 134);
+$lightgrey: rgb(183, 183, 184);
+$darkgrey:  rgb(80, 80, 80);
+$orange: 	rgb(240, 96, 36);
+$messfont:	MessHall, Helvetica, Arial, sans-serif;
+
+@font-face {
+	font-family: MessHall;
+	src: url('../MessHall.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	url('../MessHall.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+
+////////// General Styling ///////////
+
+nav{
+	background-color: $lightgrey;
+	font-family: $messfont;
+	padding: 20px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	z-index: 50;
+	width: 100%;
+	a{
+		color: $darkgrey;
+		margin-right: 30px;
+	}
+	a:last-child{
+		margin-right: 0;
+	}
+}
+
+.section{
+	padding: 60px 0;
+	&.lightgrey{
+		background-color: $lightgrey;
+		a{
+			color: white;
+		}
+	}
+	&.grey{
+		background-color: $grey;
+		color: white;
+		h3, h4, h5{
+			color: white;
+		}
+	}
+	&.orange{
+		background-color: $orange;
+		color: white;
+		a{
+			color: white;
+			text-decoration: underline;
+		}
+		h3, h4, h5, h6{
+			color: white;
+		}
+
+	}
+
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: $messfont;
+	color: $darkgrey;
+	letter-spacing: -2%;
+}
+
+.large{
+	font-size: 150%;
+}
+
+
+h1{
+	color: $grey;	
+	font-size: 4.5em;
+}
+
+h3{
+	color: $grey;
+		font-size: 29px;
+}
+h2{
+	color: $orange;
+	font-size: 1.875em;
+}
+
+h5{
+	font-size: 4.125em;
+	text-align: center;
+	color: $orange;
+}
+
+h6{
+	font-size: 1.625em;
+	color: $grey;
+}
+
+.button{
+	font-family: $messfont;
+	font-size: 1.5em;
+	padding: 30px 20px;
+}
+
+
+#intro{
+	background: url('../img/mess-hall-exterior.jpg') center top, rgba(0,0,0,0.5);
+	background-size: 115%;
+	background-attachment: fixed;
+}
+
+.presents{
+	width: 100px;
+	float: left;
+	margin-right: 15px;
+	margin-top: 14px;
+}
+.presents h3{
+	line-height: 1.1;
+}
+
+.logo{
+	margin-top: 10%;
+	margin-bottom: -45px;
+}
+
+.buttonarea{
+	text-align: center;
+}
+
+/*.timeline:before{
+display: block;
+content: ".";
+text-indent:-999px;
+width: 50%;
+height: 100%;
+background-color: $orange;
+}*/
+
+ul li{
+	margin-bottom: 15px;
+}
+
+.timeline .large-7 h6:before{
+	display: block;
+	content: ".";
+	text-indent:-999px;
+	width: 20px;
+	height: 20px;
+	border: 6px solid $orange;
+	border-radius: 50%;
+	background-color: white;
+	position: absolute;
+	left: -3.5%;
+	margin-left:-7px;
+	margin-top: 3px;
+}
+
+.timeline .large-7 h6:after{
+	display: block;
+	content: ".";
+	text-indent:-999px;
+	width: 6px;
+	height: 500px;
+	background-color: $orange;
+	position: absolute;
+	left: -3.5%;
+	margin-top:-100px;
+	z-index:-1;
+	overflow: hidden;
+}
+
+.timeline h6:first-child{
+	margin-top: 0px;
+}
+.timeline h6{
+	margin-top: 60px;
+}
+
+
+#sponsors{
+	a{
+	transition: 0.2s all;
+	}
+	a:hover{
+		opacity: 0.7;
+	}
+	text-align: center;
+	.diamond, .gold, .silver, .community{
+		margin-bottom: 80px;
+	}
+	.diamond img{
+		margin:	2%;
+	}
+	.gold img{
+		width: 45%;
+		margin: 1%;
+	} 
+	.silver img{
+		margin: 1%;
+	}
+	.community img{
+		margin: 1%;
+	}
+}
+
+
+.footer{
+	text-align: center;
+}
+
+@media (max-width: 51em) {
+#intro{
+	text-align: center;
+
+}
+.logo{
+	width: 50%;
+	margin: 10% auto;
+}
+h1{
+	font-size: 3em;
+}
+h5{
+	font-size: 2.75em;
+}
+.section{
+	padding: 40px 0;
+}
+
+}
+
+@media (max-width: 30em) {
+	body{
+		font-size: 80%;
+	}
+	h1, h5{
+		font-size: 2em;
+	}
+	h2{
+		font-size: 1em;
+	}
+	#intro{
+		background-size: auto;
+		background-position: center top;
+	}
+	p.large {
+		font-size: 110%;
+	}
+	p{
+		font-size: 100%;
+	}
+	li{
+		font-size: 90%;
+	}
+}
