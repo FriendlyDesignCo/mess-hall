@@ -53,6 +53,11 @@ $messfont:	MessHall, Helvetica, Arial, sans-serif;
 
 
 ////////// General Styling ///////////
+html {
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
 
 nav{
 	background-color: $lightgrey;
