@@ -134,7 +134,7 @@ h2{
 }
 
 h5{
-	font-size: 4.125em;
+	font-size: 3.8em;
 	text-align: center;
 	color: $orange;
 }
@@ -152,8 +152,8 @@ h6{
 
 
 #intro{
-	background: url('../img/mess-hall-exterior.jpg') center top, rgba(0,0,0,0.5);
-	background-size: 115%;
+	background: url('../img/mess-hall-exterior-2.jpg') center top, rgba(0,0,0,0.5);
+	background-size: 100%;
 	background-attachment: fixed;
 }
 
@@ -301,4 +301,11 @@ h5{
 	li{
 		font-size: 90%;
 	}
+	#sponsors{
+
+		.diamond img{
+			margin:	30px auto;
+			}
+	}
 }
+
