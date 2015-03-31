@@ -8343,27 +8343,21 @@ ul li {
   }
 
   /* line 291, ../scss/app.scss */
-  #intro {
-    background-size: auto;
-    background-position: center top;
-  }
-
-  /* line 295, ../scss/app.scss */
   p.large {
     font-size: 110%;
   }
 
-  /* line 298, ../scss/app.scss */
+  /* line 294, ../scss/app.scss */
   p {
     font-size: 100%;
   }
 
-  /* line 301, ../scss/app.scss */
+  /* line 297, ../scss/app.scss */
   li {
     font-size: 90%;
   }
 
-  /* line 306, ../scss/app.scss */
+  /* line 302, ../scss/app.scss */
   #sponsors .diamond img {
     margin: 30px auto;
   }
