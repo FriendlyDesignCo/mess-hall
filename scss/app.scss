@@ -120,16 +120,16 @@ h1, h2, h3, h4, h5, h6{
 
 
 h1{
-	color: $grey;	
+	color: $orange;	
 	font-size: 4.5em;
 }
 
 h3{
-	color: $grey;
+	color: $orange;
 		font-size: 29px;
 }
 h2{
-	color: $orange;
+	color: $grey;
 	font-size: 1.875em;
 }
 
@@ -152,7 +152,7 @@ h6{
 
 
 #intro{
-	background: url('../img/mess-hall-exterior-2.jpg') center top, rgba(0,0,0,0.5);
+	background: url('../img/union-market-hero.jpg') center top, rgba(0,0,0,0.5);
 	background-size: 100%;
 	background-attachment: fixed;
 }
@@ -267,10 +267,16 @@ ul li{
 	margin: 10% auto;
 }
 h1{
-	font-size: 3em;
+	font-size: 3.5em;
+	text-align: center;
 }
 h5{
 	font-size: 2.75em;
+	text-align: center;
+}
+
+h2{
+	text-align: center;
 }
 .section{
 	padding: 40px 0;
@@ -284,10 +290,12 @@ h5{
 	}
 	h1, h5{
 		font-size: 2em;
+		text-align: center;
 	}
 	h2{
 		font-size: 1em;
-	}
+		text-align: center;
+	}s
 	p.large {
 		font-size: 110%;
 	}

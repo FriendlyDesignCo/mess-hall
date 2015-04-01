@@ -8139,19 +8139,19 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 122, ../scss/app.scss */
 h1 {
-  color: #838386;
+  color: #f06024;
   font-size: 4.5em;
 }
 
 /* line 127, ../scss/app.scss */
 h3 {
-  color: #838386;
+  color: #f06024;
   font-size: 29px;
 }
 
 /* line 131, ../scss/app.scss */
 h2 {
-  color: #f06024;
+  color: #838386;
   font-size: 1.875em;
 }
 
@@ -8177,7 +8177,7 @@ h6 {
 
 /* line 154, ../scss/app.scss */
 #intro {
-  background: url("../img/mess-hall-exterior-2.jpg") center top, rgba(0, 0, 0, 0.5);
+  background: url("../img/union-market-hero.jpg") center top, rgba(0, 0, 0, 0.5);
   background-size: 100%;
   background-attachment: fixed;
 }
@@ -8313,51 +8313,61 @@ ul li {
 
   /* line 269, ../scss/app.scss */
   h1 {
-    font-size: 3em;
+    font-size: 3.5em;
+    text-align: center;
   }
 
-  /* line 272, ../scss/app.scss */
+  /* line 273, ../scss/app.scss */
   h5 {
     font-size: 2.75em;
+    text-align: center;
   }
 
-  /* line 275, ../scss/app.scss */
+  /* line 278, ../scss/app.scss */
+  h2 {
+    text-align: center;
+  }
+
+  /* line 281, ../scss/app.scss */
   .section {
     padding: 40px 0;
   }
 }
 @media (max-width: 30em) {
-  /* line 282, ../scss/app.scss */
+  /* line 288, ../scss/app.scss */
   body {
     font-size: 80%;
   }
 
-  /* line 285, ../scss/app.scss */
+  /* line 291, ../scss/app.scss */
   h1, h5 {
     font-size: 2em;
+    text-align: center;
   }
 
-  /* line 288, ../scss/app.scss */
+  /* line 295, ../scss/app.scss */
   h2 {
     font-size: 1em;
+    text-align: center;
   }
 
-  /* line 291, ../scss/app.scss */
+  /* line 299, ../scss/app.scss */
+  s
   p.large {
     font-size: 110%;
   }
 
-  /* line 294, ../scss/app.scss */
+  /* line 302, ../scss/app.scss */
   p {
     font-size: 100%;
   }
 
-  /* line 297, ../scss/app.scss */
+  /* line 305, ../scss/app.scss */
   li {
     font-size: 90%;
   }
 
-  /* line 302, ../scss/app.scss */
+  /* line 310, ../scss/app.scss */
   #sponsors .diamond img {
     margin: 30px auto;
   }
