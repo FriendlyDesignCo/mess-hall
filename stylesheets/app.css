@@ -5862,14 +5862,14 @@ a img {
 p {
   font-family: inherit;
   font-weight: normal;
-  font-size: 1rem;
+  font-size: 1.3rem;
   line-height: 1.6;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility;
 }
 /* line 237, ../bower_components/foundation/scss/foundation/components/_type.scss */
 p.lead {
-  font-size: 1.21875rem;
+  font-size: 1.51875rem;
   line-height: 1.6;
 }
 /* line 239, ../bower_components/foundation/scss/foundation/components/_type.scss */
@@ -5979,7 +5979,7 @@ code {
 ul,
 ol,
 dl {
-  font-size: 1rem;
+  font-size: 1.3rem;
   line-height: 1.6;
   margin-bottom: 1.25rem;
   list-style-position: outside;
