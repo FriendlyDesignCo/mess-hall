@@ -8062,13 +8062,13 @@ th.hide-for-touch {
   /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
-/* line 57, ../scss/app.scss */
+/* line 59, ../scss/app.scss */
 html {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
 }
 
-/* line 63, ../scss/app.scss */
+/* line 65, ../scss/app.scss */
 nav {
   background-color: #b7b7b8;
   font-family: MessHall, Helvetica, Arial, sans-serif;
@@ -8079,110 +8079,127 @@ nav {
   z-index: 50;
   width: 100%;
 }
-/* line 72, ../scss/app.scss */
+/* line 74, ../scss/app.scss */
 nav a {
   color: #505050;
   margin-right: 30px;
 }
-/* line 76, ../scss/app.scss */
+/* line 78, ../scss/app.scss */
 nav a:last-child {
   margin-right: 0;
 }
 
-/* line 81, ../scss/app.scss */
+/* line 83, ../scss/app.scss */
 .section {
   padding: 60px 0;
 }
-/* line 83, ../scss/app.scss */
+/* line 85, ../scss/app.scss */
 .section.lightgrey {
   background-color: #b7b7b8;
 }
-/* line 85, ../scss/app.scss */
+/* line 87, ../scss/app.scss */
 .section.lightgrey a {
   color: white;
 }
-/* line 89, ../scss/app.scss */
+/* line 91, ../scss/app.scss */
 .section.grey {
   background-color: #838386;
   color: white;
 }
-/* line 92, ../scss/app.scss */
+/* line 94, ../scss/app.scss */
 .section.grey h3, .section.grey h4, .section.grey h5 {
   color: white;
 }
-/* line 96, ../scss/app.scss */
+/* line 97, ../scss/app.scss */
+.section.grey a {
+  color: white;
+  text-decoration: underline;
+}
+/* line 102, ../scss/app.scss */
 .section.orange {
   background-color: #f06024;
   color: white;
 }
-/* line 99, ../scss/app.scss */
+/* line 105, ../scss/app.scss */
 .section.orange a {
   color: white;
   text-decoration: underline;
 }
-/* line 103, ../scss/app.scss */
+/* line 109, ../scss/app.scss */
 .section.orange h3, .section.orange h4, .section.orange h5, .section.orange h6 {
   color: white;
 }
 
-/* line 111, ../scss/app.scss */
+/* line 117, ../scss/app.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: MessHall, Helvetica, Arial, sans-serif;
   color: #505050;
   letter-spacing: -2%;
 }
 
-/* line 117, ../scss/app.scss */
+/* line 123, ../scss/app.scss */
 .large {
   font-size: 150%;
 }
 
-/* line 122, ../scss/app.scss */
+/* line 128, ../scss/app.scss */
 h1 {
   color: #f06024;
   font-size: 4.5em;
 }
 
-/* line 127, ../scss/app.scss */
+/* line 133, ../scss/app.scss */
 h3 {
   color: #f06024;
   font-size: 29px;
 }
 
-/* line 131, ../scss/app.scss */
+/* line 137, ../scss/app.scss */
 h2 {
   color: #838386;
   font-size: 1.875em;
 }
 
-/* line 136, ../scss/app.scss */
+/* line 142, ../scss/app.scss */
 h5 {
   font-size: 3.8em;
   text-align: center;
   color: #f06024;
 }
 
-/* line 142, ../scss/app.scss */
+/* line 148, ../scss/app.scss */
 h6 {
   font-size: 1.625em;
   color: #838386;
 }
 
-/* line 147, ../scss/app.scss */
+/* line 153, ../scss/app.scss */
+.orange-text {
+  color: #76270d;
+  font-size: 26px;
+}
+
+/* line 158, ../scss/app.scss */
+.grey-text {
+  color: #212121;
+  font-size: 26px;
+}
+
+/* line 163, ../scss/app.scss */
 .button {
   font-family: MessHall, Helvetica, Arial, sans-serif;
   font-size: 1.5em;
   padding: 30px 20px;
 }
 
-/* line 154, ../scss/app.scss */
+/* line 170, ../scss/app.scss */
 #intro {
   background: url("../img/union-market-hero.jpg") center top, rgba(0, 0, 0, 0.5);
   background-size: 100%;
   background-attachment: fixed;
 }
 
-/* line 160, ../scss/app.scss */
+/* line 176, ../scss/app.scss */
 .presents {
   width: 100px;
   float: left;
@@ -8190,18 +8207,18 @@ h6 {
   margin-top: 14px;
 }
 
-/* line 166, ../scss/app.scss */
+/* line 182, ../scss/app.scss */
 .presents h3 {
   line-height: 1.1;
 }
 
-/* line 170, ../scss/app.scss */
+/* line 186, ../scss/app.scss */
 .logo {
   margin-top: 10%;
   margin-bottom: -45px;
 }
 
-/* line 175, ../scss/app.scss */
+/* line 191, ../scss/app.scss */
 .buttonarea {
   text-align: center;
 }
@@ -8214,12 +8231,12 @@ width: 50%;
 height: 100%;
 background-color: $orange;
 }*/
-/* line 188, ../scss/app.scss */
+/* line 204, ../scss/app.scss */
 ul li {
   margin-bottom: 15px;
 }
 
-/* line 192, ../scss/app.scss */
+/* line 208, ../scss/app.scss */
 .timeline .large-7 h6:before {
   display: block;
   content: ".";
@@ -8235,140 +8252,160 @@ ul li {
   margin-top: 3px;
 }
 
-/* line 207, ../scss/app.scss */
+/* line 223, ../scss/app.scss */
 .timeline .large-7 h6:after {
   display: block;
   content: ".";
   text-indent: -999px;
   width: 6px;
-  height: 500px;
+  height: 600px;
   background-color: #f06024;
   position: absolute;
   left: -3.5%;
-  margin-top: -100px;
+  margin-top: -300px;
   z-index: -1;
   overflow: hidden;
 }
 
-/* line 221, ../scss/app.scss */
+/* line 237, ../scss/app.scss */
 .timeline h6:first-child {
   margin-top: 0px;
 }
 
-/* line 224, ../scss/app.scss */
+/* line 240, ../scss/app.scss */
 .timeline h6 {
   margin-top: 60px;
 }
 
-/* line 229, ../scss/app.scss */
+/* line 244, ../scss/app.scss */
+.timeline h5 {
+  text-align: left;
+}
+
+/* line 249, ../scss/app.scss */
 #sponsors {
   text-align: center;
 }
-/* line 230, ../scss/app.scss */
+/* line 250, ../scss/app.scss */
 #sponsors a {
   transition: 0.2s all;
 }
-/* line 233, ../scss/app.scss */
+/* line 253, ../scss/app.scss */
 #sponsors a:hover {
   opacity: 0.7;
 }
-/* line 237, ../scss/app.scss */
+/* line 257, ../scss/app.scss */
 #sponsors .diamond, #sponsors .gold, #sponsors .silver, #sponsors .community {
   margin-bottom: 80px;
 }
-/* line 240, ../scss/app.scss */
+/* line 260, ../scss/app.scss */
 #sponsors .diamond img {
   margin: 2%;
 }
-/* line 243, ../scss/app.scss */
+/* line 263, ../scss/app.scss */
 #sponsors .gold img {
   width: 45%;
   margin: 1%;
 }
-/* line 247, ../scss/app.scss */
+/* line 267, ../scss/app.scss */
 #sponsors .silver img {
   margin: 1%;
 }
-/* line 250, ../scss/app.scss */
+/* line 270, ../scss/app.scss */
 #sponsors .community img {
   margin: 1%;
 }
 
-/* line 256, ../scss/app.scss */
+/* line 276, ../scss/app.scss */
 .footer {
   text-align: center;
 }
 
 @media (max-width: 51em) {
-  /* line 261, ../scss/app.scss */
+  /* line 281, ../scss/app.scss */
   #intro {
     text-align: center;
   }
 
-  /* line 265, ../scss/app.scss */
+  /* line 285, ../scss/app.scss */
   .logo {
     width: 50%;
     margin: 10% auto;
   }
 
-  /* line 269, ../scss/app.scss */
+  /* line 289, ../scss/app.scss */
   h1 {
     font-size: 3.5em;
     text-align: center;
   }
 
-  /* line 273, ../scss/app.scss */
+  /* line 293, ../scss/app.scss */
   h5 {
     font-size: 2.75em;
     text-align: center;
   }
 
-  /* line 278, ../scss/app.scss */
+  /* line 298, ../scss/app.scss */
   h2 {
     text-align: center;
   }
 
-  /* line 281, ../scss/app.scss */
+  /* line 301, ../scss/app.scss */
   .section {
     padding: 40px 0;
   }
 }
 @media (max-width: 30em) {
-  /* line 288, ../scss/app.scss */
+  /* line 310, ../scss/app.scss */
   body {
     font-size: 80%;
   }
 
-  /* line 291, ../scss/app.scss */
+  /* line 313, ../scss/app.scss */
   h1, h5 {
     font-size: 2em;
     text-align: center;
   }
 
-  /* line 295, ../scss/app.scss */
+  /* line 317, ../scss/app.scss */
   h2 {
     font-size: 1em;
     text-align: center;
   }
 
-  /* line 299, ../scss/app.scss */
+  /* line 321, ../scss/app.scss */
   s
   p.large {
     font-size: 110%;
   }
 
-  /* line 302, ../scss/app.scss */
+  /* line 324, ../scss/app.scss */
   p {
     font-size: 100%;
   }
 
-  /* line 305, ../scss/app.scss */
+  /* line 327, ../scss/app.scss */
   li {
     font-size: 90%;
   }
 
-  /* line 310, ../scss/app.scss */
+  /* line 331, ../scss/app.scss */
+  .grey-text {
+    font-size: 16px;
+  }
+
+  /* line 334, ../scss/app.scss */
+  .orange-text {
+    font-size: 16px;
+  }
+
+  /* line 339, ../scss/app.scss */
   #sponsors .diamond img {
     margin: 30px auto;
+  }
+
+  /* line 343, ../scss/app.scss */
+  ul li {
+    font-size: 12px;
   }
 }
