@@ -128,6 +128,7 @@ h1, h2, h3, h4, h5, h6{
 h1{
 	color: $orange;	
 	font-size: 4.5em;
+	text-align: center;
 }
 
 h3{
@@ -137,6 +138,7 @@ h3{
 h2{
 	color: $grey;
 	font-size: 1.875em;
+	text-align: center;
 }
 
 h5{
@@ -186,7 +188,7 @@ h6{
 
 .logo{
 	margin-top: 10%;
-	margin-bottom: -45px;
+	margin-bottom: 10%;
 }
 
 .buttonarea{
@@ -284,7 +286,7 @@ ul li{
 
 }
 .logo{
-	width: 50%;
+	width: 90%;
 	margin: 10% auto;
 }
 h1{
